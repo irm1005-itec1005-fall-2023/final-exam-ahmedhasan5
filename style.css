@@ -38,6 +38,62 @@ body {
   background-color: #f7ead7;
 }
 
+
+body {
+  color: #003049;
+  font-family: sans-serif;
+  background-color: #fdf0d5;
+
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+
+  padding: 2rem 0 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 75px;
+  height: 75px;
+  background-color: black;
+  border-radius: 1.5rem;
+  margin: 1rem 0;
+  padding: 1.4rem;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  background-color: black;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+
+
+
 /*
  * SR-ONLY
  */
@@ -46,11 +102,12 @@ body {
   width: 1px;
   height: 1px;
   padding: 0;
-  margin: -1px;
+  margin: 3rem;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+ 
  }
 
 
@@ -58,11 +115,23 @@ body {
  * SHARED STYLES
  */
 
-.page-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1.0rem;
+.page-container h1 {
+display: flex;
+font-size:2.5rem;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
 }
+.page-container h3{
+  display: flex;
+  font-size:small;
+  margin-top: 1rem;
+
+  color:#797979;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*
  * ADD YOUR STYLES HERE
