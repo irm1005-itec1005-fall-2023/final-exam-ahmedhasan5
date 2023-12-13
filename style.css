@@ -201,9 +201,8 @@ margin-top: 5rem;
 
 .item-6 {
   grid-column-start: 3;
-  grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 6;
 
   padding: 1rem;
   border-radius: 1rem;
@@ -214,10 +213,78 @@ margin-top: 5rem;
 }
 
 
+.about-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.about-me img{
+  height: 700px;
+  width: 600px;
 
 
+  border-radius: 2rem;
+}
+
+.about-content{
+ margin: 2.5rem;
+}
+
+.contact-me {
+  text-decoration: none;
+  background-color:#ffafcc;
+  border-radius: 1rem ;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+}
 
 
-/*
- * ADD YOUR STYLES HERE
- */
+.my-work{
+  text-align: center;
+  font-weight: bold;
+  font-size:x-large;
+  max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    gap: 20px;
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .work-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    grid-template-columns: repeat(2, 2fr);
+  }
+  
+  .work-content {
+    text-align: center;
+  }
+  
+  h3 {
+    color: black;
+  }
+  
+  .work-content p {
+    background-color: #ffafcc;
+    border-radius: 2rem;
+    font-size: smaller;
+    
+  }
+  
+
+
