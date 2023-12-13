@@ -27,18 +27,6 @@
 
 <body>
 
-
-  <div class="container">
-    <header>
-      <h2 class="sr-only"> Site Header</h2>
-      <img src="./images/logo/logo-light.svg">
-      <nav>
-        <ul>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-  </div>
-  </header>
-
   <!--
 
     FINAL EXAM CONTENT
@@ -47,13 +35,14 @@
     THAT YOU CAN FOCUS ON THE HTML STRUCTURE AND SEMANTICS.
 
     ---------------------------------------------
-  
+
     # HEADER SECTION
-    
+
     Site Header (hidden text - not visible on screen)
     Amy's Web Development Agency Logo (<- image alt text <- ./images/logo/logo-light.svg)
     Contact Us
 
+    
 
     # MAIN SECTION
 
@@ -110,9 +99,10 @@
     CSS
     JavaScript
 
-    Book a call with me
 
     ## CONTACT ME SECTION
+
+    Book a call with me
 
     Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!"
 
@@ -126,96 +116,120 @@
     © 2023 Amy's Web Development Agency
 
   -->
-
+  <header class="page-container">
+    <section>
+      <div>
+        <h2 class="sr-only">Site Header</h2>
+        <img src="./images/logo/logo-light.svg" alt="Amy's Web Development Agency Logo" />
+        <a href="#">Contact Us</a>
+      </div>
+    </section>
+  </header>
   <main>
-    <h2 class="sr-only">Amy's Web Development Agency </h2>
     <div class="page-container">
-      <h1>Web Development Solutions Made Easy </h1>
-      <h3>Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.</h3>
-    </div>
-
-
-
-   <div class="wrapper">
-      <h2 class="sr-only">My Skills</h2>
-      <ul class="grid-container-task">
-        <li class="item-1">
-          Web Development
-         </li>
-         <li class="item-2">
-          UI/UX
-         </li>
-         <li class="item-3">
-          CSS
-         </li>
-         <li class="item-4">
-          JavaScript
-         </li>
-         <li class="item-5">
-          HTML
-         </li>
-         <li class="item-6">
-          GitHub
-         </li>
-       </ul>
-     </div>
-
-
-
-
-    </section>
-        
-    <section class="about-me">
-        <img src="./images/about/about.jpg" alt="Amy" class="about-image">
-        <div class="about-content">
-            <h2>Hey, I'm Amy. Are you ready to level up your web project?</h2>
-            <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
-            <a href="#" class="contact-me">Contact me</a>
+      <section>
+        <div class="hero-text">
+          <h2 class="sr-only">Amy's Web Development Agency</h2>
+          <h1>Web Development Solutions Made Easy</h1>
+          <p>Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.</p>
         </div>
+      </section>
+      <section>
+        <h2 class="sr-only">My Skills</h2>
+        <ul>
+          <div class="skills">
+            <div class="item-1">
+              <li>Web Development</li>
+            </div>
+            <div class="item-2">
+              <li>UI/UX</li>
+            </div>
+            <div class="item-3">
+              <li>CSS</li>
+            </div>
+            <div class="item-4">
+              <li>JavaScript</li>
+            </div>
+            <div class="item-5">
+              <li>HTML</li>
+            </div>
+            <div class="item-6">
+              <li>GitHub</li>
+            </div>
+          </div>
+        </ul>
+      </section>
+      <section>
+        <div class="about">
+          <h2 class="sr-only">About me</h2>
+          <div>
+            <img src="./images/about/about.jpg" alt="Picture of Amy's in business atire with a pink background" />
+          </div>
+          <div class="about-text">
+            <h3>Hey, I'm Amy. Are you ready to level up your web project?</h3>
+            <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+            <a href="#">Contact me</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>My Work</h2>
+        <div class="my-work">
+          <div class="about-item1">
+            <img src="./images/work/work-1.png" alt="Screenshot of Tutorial Exercise 03" />
+            <h3>Tutorial Exercise 03</h3>
+            <div class="my-work-elements">
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+          </div>
+          <div class="about-item2">
+            <img src="./images/work/work-2.png" alt="Screenshot of Tutorial Exercise 05" />
+            <h3>Tutorial Exercise 05</h3>
+            <div class="my-work-elements">
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+          </div>
+          <div class="about-item3">
+            <img src="./images/work/work-3.png" alt="Screenshot of Tutorial Exercise 07" />
+            <h3>Tutorial Exercise 07</h3>
+            <div class="my-work-elements">
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+          </div>
+
+          <div class="about-item4">
+            <img src="./images/work/work-4.png" alt="Screenshot of Tutorial Exercise 09" />
+            <h3>Tutorial Exercise 09</h3>
+            <div class="my-work-elements">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+            </div>
+        </div>
+      </section>
+      <section>
+        <div class="contact-me-section">
+          <h2>Book a Call With Me</h2>
+          <p>Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!</p>
+          <a href="#">Contact Me</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  
+  <footer class="page-container">
+    <section>
+      <div>
+        <h2 class="sr-only">Site Footer</h2>
+        <img src="./images/logo/logo-dark.svg" alt="Amy's Web Development Agency Logo" />
+        <p>© 2023 Amy's Web Development Agency</p>
+      </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    <section class="my-work">
-      <h2>My Work</h2>
-     <img src="./images/work/work-1.png" alt="Tutorial Exercise 03" class="work-image">
-      <div class="work-content">
-          <h3>Tutorial Exercise 03</h3>
-          <p>HTML, CSS</p>
-      </div>
-      <img src="./images/work/work-2.png" alt="Tutorial Exercise 05" class="work-image">
-      <div class="work-content">
-          <h3>Tutorial Exercise 05</h3>
-          <p>HTML, CSS</p>
-      </div>
-      <img src="./images/work/work-3.png" alt="Tutorial Exercise 07" class="work-image">
-      <div class="work-content">
-          <h3>Tutorial Exercise 07</h3>
-          <p>HTML, CSS</p>
-      </div>
-      <img src="./images/work/work-4.png" alt="Tutorial Exercise 09" class="work-image">
-      <div class="work-content">
-          <h3>Tutorial Exercise 09</h3>
-          <p>HTML, CSS, JavaScript</p>
-      </div>
-  </section>
-  
-  <section class="call-to-action">
-      <h2>Book a call with me</h2>
-      <p>Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!</p>
-
-  </main>
 </body>
-
 </html>
