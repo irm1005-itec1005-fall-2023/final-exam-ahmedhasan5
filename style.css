@@ -218,12 +218,12 @@ section h2{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 7rem 0;
+
 }
 
 .about img{
-  max-width: 350px;
-  height: 375px;
+  max-width: 450px;
+  height: 395px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -277,9 +277,11 @@ section h2{
 .contact-me-section{
   background-color: #cdb4db;
   border-radius: 1rem;
-  padding:1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding:3rem;
+}
+
+.contact-me-section h2{
+text-align: left;
 }
 
 .contact-me-section a{
@@ -287,8 +289,10 @@ section h2{
   color: white;
   border-radius: 0.5rem;
   padding: 0.5rem;
- 
+}
 
+.contact-me-section p{
+  margin-bottom: 20px ;
 }
 
 main section {
