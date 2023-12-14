@@ -267,12 +267,19 @@ section h2{
   border: 4px solid #333;
 }
 
-.my-work-elements{
-  display: flex;
-  justify-content: flex-start;
-  align-items: s;
+.my-elements p{
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: pink;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
 
 }
+
+
+
 
 .contact-me-section{
   background-color: #cdb4db;
